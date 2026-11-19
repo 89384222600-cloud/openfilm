@@ -68,4 +68,17 @@ export const MENU_WORDS = {
     window: 'Ventana', minimize: 'Minimizar', zoom: 'Zoom', showNextTab: 'Mostrar pestaña siguiente', showPreviousTab: 'Mostrar pestaña anterior',
     bringAllToFront: 'Traer todo al frente', help: 'Ayuda',
   },
+  ru: {
+    about: 'О программе {name}', checkForUpdates: 'Проверить обновления…', betaUpdates: 'Бета-обновления', settings: 'Настройки…', services: 'Сервисы',
+    hide: 'Скрыть {name}', hideOthers: 'Скрыть остальные', showAll: 'Показать все', quit: 'Завершить {name}',
+    file: 'Файл', newTab: 'Новая вкладка', openProject: 'Открыть проект…', closeTab: 'Закрыть вкладку', reopenClosedTab: 'Открыть закрытую вкладку',
+    edit: 'Правка', undo: 'Отменить', redo: 'Повторить', cut: 'Вырезать', copy: 'Копировать', paste: 'Вставить', pasteAndMatchStyle: 'Вставить с сохранением стиля',
+    delete: 'Удалить', selectAll: 'Выбрать все', substitutions: 'Подстановки', showSubstitutions: 'Показать подстановки',
+    smartQuotes: '«Умные» кавычки', smartDashes: 'Умные тире', textReplacement: 'Замена текста', speech: 'Речь',
+    startSpeaking: 'Начать озвучку', stopSpeaking: 'Остановить озвучку',
+    view: 'Вид', showChat: 'Показать чат', actualSize: 'Реальный размер', zoomIn: 'Приблизить', zoomOut: 'Отдалить',
+    toggleFullScreen: 'Полноэкранный режим', reload: 'Обновить', developerTools: 'Инструменты разработчика',
+    window: 'Окно', minimize: 'Свернуть', zoom: 'Масштаб', showNextTab: 'Следующая вкладка', showPreviousTab: 'Предыдущая вкладка',
+    bringAllToFront: 'Все окна на передний план', help: 'Справка',
+  },
 };
