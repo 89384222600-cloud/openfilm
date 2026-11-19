@@ -54,7 +54,7 @@ export const UPDATE_DIALOG_WORDS = {
   ko: {
     title: '업데이트 확인', ok: '확인', restart: '재시작', later: '나중에',
     upToDate: '{name}이(가) 최신 버전입니다', version: '버전 {version}', betaVersion: '버전 {version} (베타)',
-    ready: '{name} {version} 준비가 끝났습니다', readyDetail: '지금 재시작해 업데이트하거나, 종료할 때 자동으로 설치되어 다음에 열면 새 버전이 됩니다.',
+    ready: '{name} {version} 준비가 끝났습니다', readyDetail: '지금 재시작해 업데이트하거나, 종료할 때 자동으로 설치되어 다음에 열 면 새 버전이 됩니다.',
     notRestarting: '아직 재시작할 수 없습니다',
     downloading: '{name} {version} 다운로드 중', downloadingDetail: '백그라운드에서 다운로드하고 있으니 계속 작업하세요. 준비가 끝나면 왼쪽 위에 재시작 버튼이 나타납니다.',
     failed: '업데이트를 확인하지 못했습니다', failedDetail: '{error} {name}이(가) 나중에 자동으로 다시 시도합니다.',
@@ -63,8 +63,8 @@ export const UPDATE_DIALOG_WORDS = {
       unavailable: '지금은 업데이트를 사용할 수 없습니다. 잠시 후 다시 시도하세요.',
       failed: '업데이트를 완료하지 못했습니다. 잠시 후 다시 시도하세요.',
       'agent-busy': '에이전트가 아직 작업 중입니다. 끝난 뒤 재시작하세요.',
-      exporting: '내보내는 중입니다. 끝난 뒤 재시작하세요.',
-      'install-failed': '업데이트를 설치하지 못했습니다. {name}을(를) 종료했다가 다시 열면 설치됩니다.',
+      exporting: '낳볼내는 중입니다. 끝난 뒤 재시작하세요.',
+      'install-failed': '업데이트를 설치하지 못했습니다. {name}을(를) 종료했다가 다시 열으면 설치됩니다.',
     },
   },
   es: {
@@ -81,6 +81,22 @@ export const UPDATE_DIALOG_WORDS = {
       'agent-busy': 'Un agente sigue trabajando. Reinicia cuando termine.',
       exporting: 'Hay una exportación en curso. Reinicia cuando termine.',
       'install-failed': 'No se pudo instalar la actualización. Sal de {name} y vuelve a abrirlo para instalarlo.',
+    },
+  },
+  ru: {
+    title: 'Проверка обновлений', ok: 'OK', restart: 'Перезапустить', later: 'Позже',
+    upToDate: '{name} обновлён', version: 'Версия {version}', betaVersion: 'Версия {version} (бета)',
+    ready: '{name} {version} готов', readyDetail: 'Перезапустите сейчас, чтобы обновиться, или обновление установится при выходе и откроется новой версией в следующий раз.',
+    notRestarting: 'Перезапуск отложен',
+    downloading: 'Скачивание {name} {version}', downloadingDetail: 'Скачивание идёт в фоне: продолжайте работать. Когда всё будет готово, в левом верхнем углу появится кнопка перезапуска.',
+    failed: 'Не удалось проверить обновления', failedDetail: '{error} {name} также повторит попытку сам.',
+    errors: {
+      offline: 'Не удалось связаться с сервисом обновлений. Проверьте подключение и попробуйте снова.',
+      unavailable: 'Обновления сейчас недоступны. Попробуйте позже.',
+      failed: 'Не удалось завершить обновление. Попробуйте позже.',
+      'agent-busy': 'Агент всё ещё работает. Перезапустите, когда он закончит.',
+      exporting: 'Идёт экспорт. Перезапустите, когда он закончит.',
+      'install-failed': 'Не удалось установить обновление. Завершите {name} и откройте его снова, чтобы установить.',
     },
   },
 };
