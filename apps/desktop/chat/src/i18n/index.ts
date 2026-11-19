@@ -8,12 +8,13 @@ import { enUS } from './locales/en-US';
 import { es } from './locales/es';
 import { ja } from './locales/ja';
 import { ko } from './locales/ko';
+import { ru } from './locales/ru';
 import { zhCN } from './locales/zh-CN';
 import { lookup } from './lookup';
 
-export type UiLocale = 'en' | 'zh-CN' | 'ja' | 'ko' | 'es';
+export type UiLocale = 'en' | 'zh-CN' | 'ja' | 'ko' | 'es' | 'ru';
 
-const TABLES: Record<UiLocale, unknown> = { en: enUS, 'zh-CN': zhCN, ja, ko, es };
+const TABLES: Record<UiLocale, unknown> = { en: enUS, 'zh-CN': zhCN, ja, ko, es, ru };
 
 let language: UiLocale = 'en';
 const listeners = new Set<() => void>();
